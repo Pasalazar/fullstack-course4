@@ -4,10 +4,20 @@
 <meta charset="utf-8">
 <title>Child Selector</title>
 <style>
+body {
+  color: purple;
+  font-size: 36px;
+  text-align: center;
+}
 
 /* any article element which is a direct child of a section element,i.e., any article element whose immediate parent is a section element. */
 section > article {
   color: green;
+  font-size: 24px;
+}
+
+h1.big {
+  color: red;
   font-size: 24px;
 }
 
@@ -19,7 +29,7 @@ section > h2 {
 </style>
 </head>
 <body>
-<h1>Child Selector</h1>
+<h1 class = "big">Child Selector</h1>
 <section>
   <h2>Subheading 1</h2>
   <div>
